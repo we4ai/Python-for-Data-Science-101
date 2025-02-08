@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="resume-container">
+        <div class="resume-left">
+            <img src="{{ url_for('static', filename='image.png') }}" alt="Student Image">
+        </div>
+        <div class="resume-right">
+            <h1>Geeky Rahul</h1>
+            <p><strong>Email:</strong> we4aiteam@gmail.com</p>
+            <p><strong>Phone:</strong> +91-9910863611</p>
+            <p><strong>Address:</strong> Bangalore, India</p>
+            <h2>Education</h2>
+            <p>Bachelor of Science in Data Science - IIT Madras</p>
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Machine Learning</li>
+                <li>Data Science</li>
+                <li>Artificial Intelligence</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-left {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.resume-left img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.resume-right {
+    flex: 2;
+    padding: 20px;
+}
+
+.resume-right h1 {
+    margin-top: 0;
+}
+
+.resume-right h2 {
+    margin-bottom: 10px;
+}
+
+.resume-right p, .resume-right ul {
+    margin: 10px 0;
+}
+
+.resume-right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resume-right ul li {
+    background-color: #e4e4e4;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
